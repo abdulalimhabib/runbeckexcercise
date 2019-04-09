@@ -10,6 +10,7 @@ namespace Runbeck.TextProcessor
         {
             bool isRunning = true;
 
+
             Console.WriteLine("Welcome to Runbeck Text Processor!");
 
             while (isRunning)
