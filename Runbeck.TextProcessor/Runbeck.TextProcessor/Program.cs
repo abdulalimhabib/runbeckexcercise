@@ -15,9 +15,12 @@ namespace Runbeck.TextProcessor
 
             while (isRunning)
             {
-                Console.WriteLine("Please select an option: " + Environment.NewLine
+                Console.WriteLine(
+                    "**************************************" + Environment.NewLine
+                    + "Please select an option: " + Environment.NewLine
                     + "1- Start the Text Processor tool" + Environment.NewLine
-                    + "2- Quit application");
+                    + "2- Quit application" + Environment.NewLine
+                    + "**************************************");
 
                 switch (Console.ReadLine())
                 {

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Runbeck.TextProcessor
 {
-    class TextProcessor
+    public class TextProcessor
     {
         #region " Enums "
         private enum OutputType
@@ -29,7 +29,7 @@ namespace Runbeck.TextProcessor
         #endregion
 
         #region " Run "
-        internal void Run()
+        public void Run()
         {
             try
             {
